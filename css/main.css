@@ -9,7 +9,7 @@ footer {
 
     /*debug*/
     background-color: #23272A;
-    height: 700px;
+    height: 540px;
 }
 
 /*regole header*/
@@ -68,7 +68,7 @@ footer {
     /*debug*/
     background-color:blueviolet;
     height: 80%;
-    width: 70%;
+    width: 75%;
 }
 
 .main-sect-img {
@@ -102,7 +102,7 @@ footer {
     align-items: center;
     /*debug*/
     background-color: #D3D3D3;
-    height: 900px;
+    height: 760px;
 }
 
 #tech-sect-container {
@@ -110,7 +110,7 @@ footer {
     /*debug*/
     background-color: #218B21;
     height: 90%;
-    width: 80%;
+    width: 75%;
 }
 
 /*regole piè di pagina */
@@ -126,7 +126,7 @@ footer {
 }
 #footer-container {
     /*debug*/
-    height: 100%;
+    height: 600px;
 }
 
 #large-col {
@@ -136,7 +136,32 @@ footer {
     background-color: #F08180;
 }
 .regular-col {
+
+    /*debug*/
     height: 90%;
     width: 14%;
     background-color:#20B3AA;
+}
+
+/*regole sezione registrazione*/
+#register-section-content {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+    
+    /*debug*/
+    height: 60px;
+    background-color: #7FFFD4;
+    
+}
+
+#register-section-container {
+    display: flex;
+    align-items: end;
+    /*debug*/
+    background-color: #23272A;
+    height: 18%;
+
 }
