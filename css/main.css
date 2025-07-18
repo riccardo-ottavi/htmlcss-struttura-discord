@@ -5,3 +5,26 @@
     box-sizing: border-box;   
 }
 
+/*regole header*/
+#header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    /*debug*/
+    background-color: #ADD8E7;
+    height: 80px;
+}
+
+#header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center; 
+    width: 80%;
+    margin:0 auto;
+    /*debug*/
+    background-color:#DAA71F;
+    height: 40px;
+}
