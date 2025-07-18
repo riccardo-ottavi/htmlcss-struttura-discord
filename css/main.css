@@ -88,3 +88,20 @@
     height: 600px;
     
 }
+
+/*regole sezione tecnologia */
+#gray-back-large {
+    display: flex;
+    align-items: center;
+    /*debug*/
+    background-color: #D3D3D3;
+    height: 900px;
+}
+
+#tech-sect-container {
+    margin: 0 auto;
+    /*debug*/
+    background-color: #218B21;
+    height: 90%;
+    width: 80%;
+}
