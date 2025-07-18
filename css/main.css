@@ -5,6 +5,13 @@
     box-sizing: border-box;   
 }
 
+footer {
+
+    /*debug*/
+    background-color: #23272A;
+    height: 700px;
+}
+
 /*regole header*/
 #header-nav-back {
     display: flex;
@@ -104,4 +111,32 @@
     background-color: #218B21;
     height: 90%;
     width: 80%;
+}
+
+/*regole piè di pagina */
+#footer-columns-container {
+    /*debug*/
+    height: 80%;
+    background-color: #23272A;
+    border-bottom: 3px solid #979B9E;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    padding-top: 5px;
+}
+#footer-container {
+    /*debug*/
+    height: 100%;
+}
+
+#large-col {
+    /*debug*/
+    height: 90%;
+    width: 18%;
+    background-color: #F08180;
+}
+.regular-col {
+    height: 90%;
+    width: 14%;
+    background-color:#20B3AA;
 }
