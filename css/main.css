@@ -22,7 +22,7 @@
     justify-content: center;
     justify-content: space-around;
     align-items: center; 
-    width: 80%;
+    width: 70%;
     margin:0 auto;
     /*debug*/
     background-color:#DAA71F;
@@ -34,7 +34,7 @@
     align-items: center;
    /*debug*/
    background-color:#00018B;
-   height: 600px;
+   height: 500px;
 }
 
 #header-img-container {
@@ -42,5 +42,49 @@
     /*debug*/
     background-color:#EF82ED;
     height: 70%;
+    width: 55%;
+}
+
+/*sezione principale*/
+.white-back{
+    display: flex;
+    align-items: center;
+    /*debug*/
+    background-color:white;
+    height: 600px;
+}
+
+/*regole sezione invito */
+.main-sect-container {
+    display: flex;
+    margin: 0 auto;
+    /*debug*/
+    background-color:blueviolet;
+    height: 80%;
+    width: 70%;
+}
+
+.main-sect-img {
+
+    /*debug*/
+    background-color: #1E90FF;
+    height: 100%;
     width: 60%;
+}
+
+.main-sect-text {
+    /*debug*/
+    background-color: #FFC0CA;
+    height: 100%;
+    width: 40%;
+}
+
+/*regole sezione trovarsi */
+.gray-back {
+    display: flex;
+    align-items: center;
+    /*debug*/
+    background-color: #D3D3D3;
+    height: 600px;
+    
 }
