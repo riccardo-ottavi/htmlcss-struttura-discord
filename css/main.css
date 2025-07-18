@@ -6,7 +6,7 @@
 }
 
 /*regole header*/
-#header-div {
+#header-nav-back {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,7 @@
     height: 80px;
 }
 
-#header-container {
+#header-nav-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,5 +26,21 @@
     margin:0 auto;
     /*debug*/
     background-color:#DAA71F;
-    height: 40px;
+    height: 50%;
+}
+
+#header-img-back {
+    display: flex;
+    align-items: center;
+   /*debug*/
+   background-color:#00018B;
+   height: 600px;
+}
+
+#header-img-container {
+    margin:0 auto;
+    /*debug*/
+    background-color:#EF82ED;
+    height: 70%;
+    width: 60%;
 }
