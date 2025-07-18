@@ -116,7 +116,7 @@ footer {
 /*regole piè di pagina */
 #footer-columns-container {
     /*debug*/
-    height: 80%;
+    height: 90%;
     background-color: #23272A;
     border-bottom: 3px solid #979B9E;
     display: flex;
