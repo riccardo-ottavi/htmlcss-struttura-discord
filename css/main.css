@@ -45,11 +45,13 @@ footer {
 }
 
 #header-img-container {
-    margin:0 auto;
+    width: 55%;
+    margin:0 auto; 
     /*debug*/
     background-color:#EF82ED;
     height: 70%;
-    width: 55%;
+  
+   
 }
 
 /*sezione principale*/
@@ -114,22 +116,25 @@ footer {
 }
 
 /*regole piè di pagina */
-#footer-columns-container {
-    /*debug*/
-    height: 90%;
-    background-color: #23272A;
+#footer-columns-container {  
     border-bottom: 3px solid #979B9E;
     display: flex;
     gap: 1px;
     justify-content: center;
     padding-top: 5px;
+    /*debug*/
+    height: 90%;
+    background-color: #23272A;
+  
 }
 #footer-container {
+
     /*debug*/
     height: 600px;
 }
 
 #large-col {
+
     /*debug*/
     height: 90%;
     width: 18%;
@@ -150,10 +155,10 @@ footer {
     width: 75%;
     margin: 0 auto;
     align-items: center;
-    
     /*debug*/
     height: 60px;
     background-color: #7FFFD4;
+    
     
 }
 
@@ -163,5 +168,7 @@ footer {
     /*debug*/
     background-color: #23272A;
     height: 18%;
+    
+    
 
 }
