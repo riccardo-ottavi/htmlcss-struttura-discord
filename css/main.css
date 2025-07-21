@@ -16,7 +16,6 @@ footer {
 #header-nav-back {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     justify-content: space-around;
     /*debug*/
     background-color: #ADD8E7;
@@ -50,8 +49,6 @@ footer {
     /*debug*/
     background-color:#EF82ED;
     height: 70%;
-  
-   
 }
 
 /*sezione principale*/
@@ -95,7 +92,6 @@ footer {
     /*debug*/
     background-color: #D3D3D3;
     height: 600px;
-    
 }
 
 /*regole sezione tecnologia */
@@ -125,7 +121,6 @@ footer {
     /*debug*/
     height: 90%;
     background-color: #23272A;
-  
 }
 #footer-container {
 
@@ -158,8 +153,6 @@ footer {
     /*debug*/
     height: 60px;
     background-color: #7FFFD4;
-    
-    
 }
 
 #register-section-container {
@@ -168,7 +161,4 @@ footer {
     /*debug*/
     background-color: #23272A;
     height: 18%;
-    
-    
-
 }
